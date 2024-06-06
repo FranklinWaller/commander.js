@@ -1,4 +1,4 @@
-const commander = require('../');
+import * as commander from '../';
 
 // Checking for detection of unknown options, including regression tests for some past issues.
 

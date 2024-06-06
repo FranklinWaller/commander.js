@@ -1,4 +1,4 @@
-const commander = require('../');
+import * as commander from '../';
 
 // Not testing output, just testing whether an error is detected.
 

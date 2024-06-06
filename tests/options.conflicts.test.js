@@ -1,5 +1,5 @@
 const path = require('path');
-const commander = require('../');
+import * as commander from '../';
 
 describe('command with conflicting options', () => {
   function makeProgram() {

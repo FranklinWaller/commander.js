@@ -1,4 +1,4 @@
-const commander = require('../');
+import * as commander from '../';
 
 // Mostly testing direct on program, limited check that (sub)command working same.
 

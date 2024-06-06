@@ -1,4 +1,4 @@
-const commander = require('../');
+import * as commander from '../';
 
 // This is a ported legacy test.
 

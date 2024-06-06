@@ -1,4 +1,4 @@
-const commander = require('../');
+import * as commander from '../';
 
 test('when option argument in choices then option set', () => {
   const program = new commander.Command();

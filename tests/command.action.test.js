@@ -1,4 +1,4 @@
-const commander = require('../');
+import * as commander from '../';
 
 // Test some behaviours of .action not covered in more specific tests.
 

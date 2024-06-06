@@ -1,4 +1,4 @@
-const commander = require('../');
+import * as commander from '../';
 
 // The action handler used to be implemented using command events and listeners.
 // Now, this is mostly just for backwards compatibility.

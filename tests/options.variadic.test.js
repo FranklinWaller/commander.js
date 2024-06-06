@@ -1,4 +1,4 @@
-const commander = require('../');
+import * as commander from '../';
 
 describe('variadic option with required value', () => {
   test('when variadic with value missing then error', () => {

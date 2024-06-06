@@ -1,4 +1,4 @@
-const commander = require('../');
+import * as commander from '../';
 
 test('when default configuration then global options hidden', () => {
   const program = new commander.Command();

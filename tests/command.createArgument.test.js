@@ -1,4 +1,4 @@
-const commander = require('../');
+import * as commander from '../';
 
 class MyArgument extends commander.Argument {
   constructor(name, description) {

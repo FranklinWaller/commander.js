@@ -1,4 +1,4 @@
-const commander = require('../');
+import * as commander from '../';
 
 test('when set description then get description', () => {
   const program = new commander.Command();

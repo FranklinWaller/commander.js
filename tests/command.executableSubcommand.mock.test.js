@@ -1,4 +1,4 @@
-const commander = require('../');
+import * as commander from '../';
 const childProcess = require('child_process');
 const EventEmitter = require('events');
 

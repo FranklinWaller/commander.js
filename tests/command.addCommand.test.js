@@ -1,4 +1,4 @@
-const commander = require('../');
+import * as commander from '../';
 
 // simple sanity check subcommand works
 test('when addCommand and specify subcommand then called', () => {

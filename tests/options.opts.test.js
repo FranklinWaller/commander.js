@@ -1,4 +1,4 @@
-const commander = require('../');
+import * as commander from '../';
 
 // Test the `.opts()` way of accessing option values.
 // Basic coverage of the main option types (leaving out negatable flags and options with optional values).

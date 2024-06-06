@@ -1,4 +1,4 @@
-const commander = require('../');
+import * as commander from '../';
 
 // Tests some private properties as simpler than pure tests of observable behaviours.
 // Testing before and after values in some cases, to ensure value actually changes (when copied).

@@ -1,4 +1,4 @@
-const commander = require('../');
+import * as commander from '../';
 
 describe('help command listed in helpInformation', () => {
   test('when program has no subcommands then no automatic help command', () => {

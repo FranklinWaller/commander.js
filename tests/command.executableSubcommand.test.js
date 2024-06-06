@@ -1,4 +1,4 @@
-const commander = require('../');
+import * as commander from '../';
 
 // Executable subcommand tests that didn't fit in elsewhere.
 

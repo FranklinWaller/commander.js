@@ -1,4 +1,4 @@
-const commander = require('../');
+import * as commander from '../';
 
 describe('unknownCommand', () => {
   // Optional. Use internal knowledge to suppress output to keep test output clean.

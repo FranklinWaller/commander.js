@@ -1,4 +1,4 @@
-const commander = require('../');
+import * as commander from '../';
 
 // Test the various ways flags can be specified in the first parameter to `.option`
 

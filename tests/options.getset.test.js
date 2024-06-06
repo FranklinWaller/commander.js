@@ -1,4 +1,4 @@
-const commander = require('../');
+import * as commander from '../';
 
 describe.each([true, false])(
   'storeOptionsAsProperties is %s',

@@ -1,4 +1,4 @@
-const commander = require('../');
+import * as commander from '../';
 
 test('when set summary then get summary', () => {
   const program = new commander.Command();

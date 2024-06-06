@@ -1,4 +1,4 @@
-const commander = require('../');
+import * as commander from '../';
 
 test('when error called with message then message displayed on stderr', () => {
   const exitSpy = jest.spyOn(process, 'exit').mockImplementation(() => {});

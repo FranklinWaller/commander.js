@@ -1,4 +1,4 @@
-const commander = require('../');
+import * as commander from '../';
 
 // Test .version. Using exitOverride to check behaviour (instead of mocking process.exit).
 

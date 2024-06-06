@@ -1,4 +1,4 @@
-const commander = require('../');
+import * as commander from '../';
 
 test('when default writeErr() then error on stderr', () => {
   const writeSpy = jest

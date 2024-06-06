@@ -1,4 +1,4 @@
-const commander = require('../');
+import * as commander from '../';
 
 // Low-level tests of setting Argument.required.
 // Higher level tests of optional/required arguments elsewhere.

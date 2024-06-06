@@ -1,4 +1,4 @@
-const commander = require('../');
+import * as commander from '../';
 
 // Test simple flag and negatable flag
 

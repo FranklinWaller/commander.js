@@ -38,7 +38,7 @@
     "lib/**/*.js",
     /* TypeScript. Should match includes in tsconfig.ts.json. */
     "**/*.ts",
-    "**/*.mts",
+    "**/*.mts", "lib/argument.mjs", "lib/command.mjs", "lib/error.mjs", "lib/help.mjs", "lib/option.mjs", "lib/suggestSimilar.mjs",
   ],
   "exclude": ["node_modules"],
 }

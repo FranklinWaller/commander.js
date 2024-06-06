@@ -1,4 +1,4 @@
-import commander from './index.js';
+import * as commander from './index.mjs';
 
 // wrapper to provide named exports for ESM.
 export const {
@@ -8,7 +8,6 @@ export const {
   createOption,
   CommanderError,
   InvalidArgumentError,
-  InvalidOptionArgumentError, // deprecated old name
   Command,
   Argument,
   Option,

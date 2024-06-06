@@ -1,7 +1,7 @@
 const childProcess = require('child_process');
 const fs = require('fs');
 const path = require('path');
-const commander = require('../');
+import * as commander from '../';
 
 // This file does in-process mocking. Bit clumsy but faster and less external clutter than using fixtures.
 // See also command.executableSubcommand.lookup.test.js for tests using fixtures.

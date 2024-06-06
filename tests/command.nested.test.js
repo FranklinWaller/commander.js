@@ -1,4 +1,4 @@
-const commander = require('../');
+import * as commander from '../';
 
 test('when call nested subcommand then runs', () => {
   const program = new commander.Command();

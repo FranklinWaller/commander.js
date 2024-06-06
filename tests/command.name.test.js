@@ -1,5 +1,5 @@
 const path = require('path');
-const commander = require('../');
+import * as commander from '../';
 
 test('when construct with name then name is set', () => {
   const program = new commander.Command('foo');

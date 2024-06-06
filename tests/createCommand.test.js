@@ -1,4 +1,4 @@
-const commander = require('../');
+import * as commander from '../';
 
 test('when createCommand then unattached', () => {
   const program = new commander.Command();

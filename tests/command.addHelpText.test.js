@@ -1,4 +1,4 @@
-const commander = require('../');
+import * as commander from '../';
 
 // Using outputHelp to simplify testing.
 

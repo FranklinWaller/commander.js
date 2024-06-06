@@ -1,4 +1,4 @@
-const commander = require('../');
+import * as commander from '../';
 
 function myParseInt(value, dummyPrevious) {
   // parseInt takes a string and a radix

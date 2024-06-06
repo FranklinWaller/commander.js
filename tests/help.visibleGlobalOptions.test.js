@@ -1,4 +1,4 @@
-const commander = require('../');
+import * as commander from '../';
 
 test('when default configuration then return empty array', () => {
   const program = new commander.Command();

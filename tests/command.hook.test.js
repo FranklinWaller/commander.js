@@ -1,4 +1,4 @@
-const commander = require('../');
+import * as commander from '../';
 
 test('when hook event wrong then throw', () => {
   const program = new commander.Command();

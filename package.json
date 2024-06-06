@@ -40,8 +40,8 @@
     "typings/esm.d.mts",
     "package-support.json"
   ],
-  "type": "commonjs",
-  "main": "./index.js",
+  "type": "module",
+  "main": "./index.mjs",
   "exports": {
     ".": {
       "require": {
@@ -52,7 +52,7 @@
         "types": "./typings/esm.d.mts",
         "default": "./esm.mjs"
       },
-      "default": "./index.js"
+      "default": "./index.mjs"
     },
     "./esm.mjs": {
       "types": "./typings/esm.d.mts",

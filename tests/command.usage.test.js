@@ -1,4 +1,4 @@
-const commander = require('../');
+import * as commander from '../';
 
 test('when default usage and check program help then starts with default usage', () => {
   const program = new commander.Command();

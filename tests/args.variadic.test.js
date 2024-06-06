@@ -1,4 +1,4 @@
-const commander = require('../');
+import * as commander from '../';
 
 // Testing variadic arguments. Testing all the action arguments, but could test just variadicArg.
 

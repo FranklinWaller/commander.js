@@ -1,4 +1,4 @@
-const commander = require('../');
+import * as commander from '../';
 
 // Assuming mandatory options behave as normal options apart from the mandatory aspect, not retesting all behaviour.
 // Likewise, not redoing all tests on subcommand after testing on program.

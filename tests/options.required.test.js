@@ -1,4 +1,4 @@
-const commander = require('../');
+import * as commander from '../';
 
 // option with required value, no default
 describe('option with required value, no default', () => {

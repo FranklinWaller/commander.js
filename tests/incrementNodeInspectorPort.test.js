@@ -1,6 +1,6 @@
 const childProcess = require('child_process');
 const path = require('path');
-const commander = require('../');
+import * as commander from '../';
 
 describe('incrementNodeInspectorPort', () => {
   let spawnSpy;

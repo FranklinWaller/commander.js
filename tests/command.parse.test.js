@@ -1,4 +1,4 @@
-const commander = require('../');
+import * as commander from '../';
 
 // Testing some Electron conventions but not directly using Electron to avoid overheads.
 // https://github.com/electron/electron/issues/4690#issuecomment-217435222

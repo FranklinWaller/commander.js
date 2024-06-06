@@ -1,4 +1,4 @@
-const commander = require('../');
+import * as commander from '../';
 
 // treating optional same as required, treat as option taking value rather than as boolean
 describe.each(['-f, --foo <required-arg>', '-f, --foo [optional-arg]'])(

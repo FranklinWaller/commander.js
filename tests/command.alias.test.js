@@ -1,4 +1,4 @@
-const commander = require('../');
+import * as commander from '../';
 
 // Running alias commands is tested in command.executableSubcommand.lookup.test.js
 // Test various other behaviours for .alias

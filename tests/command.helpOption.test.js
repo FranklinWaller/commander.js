@@ -1,4 +1,4 @@
-const commander = require('../');
+import * as commander from '../';
 
 describe('helpOption', () => {
   let writeSpy;

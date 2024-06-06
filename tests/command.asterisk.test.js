@@ -1,4 +1,4 @@
-const commander = require('../');
+import * as commander from '../';
 
 // .command('*') is the old main/default command handler. It adds a listener
 // for 'command:*'. It has been somewhat replaced by the program action handler,

@@ -1,4 +1,4 @@
-const commander = require('../');
+import * as commander from '../';
 const path = require('path');
 
 // Test details of the exitOverride errors.
