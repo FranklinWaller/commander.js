@@ -33,8 +33,8 @@
     "test-esm": "node ./tests/esm-imports-test.mjs"
   },
   "files": [
-    "index.js",
-    "lib/*.js",
+    "index.mjs",
+    "lib/*.mjs",
     "esm.mjs",
     "typings/index.d.ts",
     "typings/esm.d.mts",
@@ -53,6 +53,10 @@
         "default": "./esm.mjs"
       },
       "default": "./index.mjs"
+    },
+    "./esm.mjs": {
+      "types": "./typings/esm.d.mts",
+      "import": "./esm.mjs"
     }
   },
   "devDependencies": {
